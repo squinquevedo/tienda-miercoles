@@ -109,4 +109,9 @@ class Producto
     {
         $this->id_categoria = $id_categoria;
     }
+
+    public function getAll(){
+        $productos = $this->db->query("SELECT * FROM t_productos ORDER by id_producto DESC");
+        return $productos;
 }
+    }

@@ -28,7 +28,7 @@ if (class_exists($nombre_controlador)) {
         $controlador->$action();
     } elseif (!isset($_GET['controller']) && !isset($_GET['action'])) {
         $action_default = action_default;
-        $controlador->$action();
+        $controlador->$action_default();
     } else {
         show_error();
     }
