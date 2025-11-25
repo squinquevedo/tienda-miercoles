@@ -1,5 +1,5 @@
 <?php
 
-define("base_url", "http://localhost/Layout-Tienda/");
+define("base_url", "http://localhost/layout-tienda-main/");
 define("controller_default", "productoController");
 define("action_default", "index");
